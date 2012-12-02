@@ -1,0 +1,27 @@
+[
+    {
+        "caption": "Propel: Generate",
+        "command": "propel_generate"
+    },
+    {
+        "caption": "Propel: Diff",
+        "command": "propel_generate", "args":
+        {
+            "action": "diff"
+        }
+    },
+    {
+        "caption": "Propel: Migrate up",
+        "command": "propel_generate", "args":
+        {
+            "action": "up"
+        }
+    },
+    {
+        "caption": "Propel: Migrate down",
+        "command": "propel_generate", "args":
+        {
+            "action": "down"
+        }
+    }
+]
